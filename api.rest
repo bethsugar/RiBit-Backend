@@ -1,0 +1,29 @@
+###
+GET  http://localhost:4000/api/productores
+
+###
+POST http://localhost:4000/api/productores
+Content-Type: application/json
+
+{
+    "price": "56565",
+    "direction": "sada",
+    "name": "sada",
+    "doc": "8989",
+    "contact": "90890",
+    "code": "10232"  
+}
+
+###
+GET http://localhost:4000/api/productores/5f903c7f1ef24f3cb1ac7284
+
+###
+DELETE http://localhost:4000/api/productores/5f903b7c783e593c4b9444f5
+
+###
+PUT http://localhost:4000/api/productores/5f903c7f1ef24f3cb1ac7284
+Content-Type: application/json
+
+{
+    "price": 100000
+}
