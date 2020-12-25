@@ -1,5 +1,5 @@
 # REST API MongoDB Nodejs Express.js
-- Este es un simple REST API de pruebas con el clásico crud esta vez utilicé MongoDB y Express.js
+- Este es un simple REST API de pruebas con el clásico CRUD esta vez utilicé MongoDB y Express.js
 
 
 ### Requisitos
